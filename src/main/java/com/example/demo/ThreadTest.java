@@ -5,26 +5,26 @@ package com.example.demo;
 public class ThreadTest {
 
     public static void main(String[] args) throws Exception {
-    Thread thread1 = new Thread(
-            new Runnable() {
-                public void run () {
+        Thread thread1 = new Thread(
+                new Runnable() {
+                    public void run() {
 
-                    System.out.println("hello t1");
+                        System.out.println("hello t1");
+                    }
                 }
-            }
-    );
-    Thread thread2 = new Thread(
-            new Runnable() {
-                public void run () {
+        );
+        Thread thread2 = new Thread(
+                new Runnable() {
+                    public void run() {
 
-                    System.out.println("hello t2");
+                        System.out.println("hello t2");
+                    }
                 }
-            }
-    );
+        );
 
         Thread thread3 = new Thread(
                 new Runnable() {
-                    public void run () {
+                    public void run() {
 
                         System.out.println("hello t3");
                     }
@@ -34,7 +34,7 @@ public class ThreadTest {
 
         Thread thread4 = new Thread(
                 new Runnable() {
-                    public void run () {
+                    public void run() {
 
                         System.out.println("hello t4");
                     }
@@ -44,7 +44,7 @@ public class ThreadTest {
 
         Thread thread5 = new Thread(
                 new Runnable() {
-                    public void run () {
+                    public void run() {
 
                         System.out.println("hello t5");
                     }

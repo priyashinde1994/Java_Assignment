@@ -7,7 +7,7 @@ import java.util.Objects;
 public class Employee implements Comparable<Employee> {
 
 
-    String lastname;
+    private String lastname;
    private int id;
     private String firstname;
 

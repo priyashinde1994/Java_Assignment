@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class EmployeeHash {
 
-    int id;
-    String firstname;
-    String lastname;
+    private int id;
+    private String firstname;
+    private String lastname;
 
     public EmployeeHash(int id, String firstname, String lastname) {
         this.id = id;

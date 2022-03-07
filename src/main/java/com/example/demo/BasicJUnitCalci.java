@@ -3,14 +3,14 @@ package com.example.demo;
 class BasicJUnitCalci {
 
 
-    int add(int a, int b ){
-        return  a+b;
+    int add(int a, int b) {
+        return a + b;
     }
 
 
-    public Boolean comptwonum(int c, int d){
+    public Boolean comptwonum(int c, int d) {
 
-        return c==d;
+        return c == d;
     }
 
 }

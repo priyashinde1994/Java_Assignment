@@ -3,8 +3,8 @@ package com.example.demo;
 import java.util.Objects;
 
 public class EmployeeEquals {int id;
-    String firstname;
-    String lastname;
+   private String firstname;
+   private String lastname;
 
     public EmployeeEquals(int id, String firstname, String lastname) {
         this.id = id;
